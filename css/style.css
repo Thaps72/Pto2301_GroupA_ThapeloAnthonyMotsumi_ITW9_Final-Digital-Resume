@@ -119,7 +119,6 @@ left: 40%;
 /*-adding-mediaquries-smaller-600px--styles-home-page*/
 @media only screen and (min-width:600px){
     .left-image{
-        display:;
     }
 }
 
@@ -132,4 +131,12 @@ left: 40%;
 /*-adding-mediaquries-desktops-992px--styles*/
 @media only screen and (min-width:992px){
 
+}
+
+/*--about-page-main-section-hoverstyles--*/
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
 }
