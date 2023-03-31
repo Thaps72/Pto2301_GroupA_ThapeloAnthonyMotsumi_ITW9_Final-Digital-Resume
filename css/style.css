@@ -77,6 +77,41 @@ margin-bottom: 5px;
     border: 2px solid#f73535;
     letter-spacing: 1px;
     font-size: 16px;
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
+}
+
+/*--text,a, hover-styles--*/
+.text a:hover{
+    background-color: transparent;
+    color: #003256;
+    border: 2px solid #003256;
+    transition: 0.5s;
+
+}
+
+/*--left-image-styles--*/
+.left-image{
+position: absolute;
+width: 40%;
+height: 80%;
+bottom: 40px;
+right: 100px;
+}
+
+/*--left-image,actual-image-styles--*/
+.left-image img{
+height: 100%;
+position: absolute;
+bottom: 0;
+left:50%;
+transform: translate(-50%);
+cursor: pointer;
+border-radius: 40px;
+}
+
+/*--left-image,actual-image-hoverstyles--*/
+.left-image img:hover{
+transition: 1s;
+left: 40%;
 }
