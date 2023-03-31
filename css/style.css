@@ -28,9 +28,10 @@ nav{
 /*--logo-styles--*/
 .logo{
     font-size: 35px;
-    font-style: italic;
+    font-style: normal;
     letter-spacing: 2px;
     cursor: pointer;
+    color: #f73535;
 }
 
 /*--nav,lu,li-styles--*/
@@ -39,7 +40,6 @@ nav ul li{
     display: inline-block;
     margin: 20px 10px;
 }
-
 
 /*--nav,lu,li,a-styles--*/
 nav ul li a{
@@ -51,4 +51,32 @@ color: #000;
 /*--nav,lu,li,a,hover-styles--*/
 nav ul li a:hover{
     color: #f73535;
+    transition: 0.5s;
+}
+
+/*--text-styles--*/
+.text{
+    margin-left: 7%;
+    margin-top: 4%;
+}
+
+/*--text,h1-styles--*/
+.text h1{
+font-size: 32px;
+margin-bottom: 5px;
+}
+
+/*--text,a-styles--*/
+.text a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 6px 0;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #f73535;
+    border: 2px solid#f73535;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
 }
