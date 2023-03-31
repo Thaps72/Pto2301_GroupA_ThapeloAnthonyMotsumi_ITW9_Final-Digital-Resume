@@ -115,3 +115,21 @@ border-radius: 40px;
 transition: 1s;
 left: 40%;
 }
+
+/*-adding-mediaquries-smaller-600px--styles-home-page*/
+@media only screen and (min-width:600px){
+    .left-image{
+        display: none;
+    }
+}
+
+/*-adding-mediaquries-tablets-768px--styles*/
+    
+@media only screen and (min-width:768px){
+
+}
+
+/*-adding-mediaquries-desktops-992px--styles*/
+@media only screen and (min-width:992px){
+
+}
