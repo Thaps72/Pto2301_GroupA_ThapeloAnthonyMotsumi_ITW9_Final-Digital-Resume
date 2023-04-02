@@ -116,12 +116,63 @@ transition: 1s;
 left: 40%;
 }
 
-#about{
+/*--about-page-main-section-hoverstyles--*/
+
+.main_about{
     height: 100vh;
     width: 100%;
-    background-color: red;
+    background-color:#adcdd8;
     position: relative;
 }
+
+
+/*--about-page-textme-section-hoverstyles--*/
+.about_me{
+ padding-left: 20px;
+}
+
+/*--about-page-strong-section-hoverstyles--*/
+.about_me strong{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #f73535;
+
+}
+
+/*--about-page-footer-container-section-hoverstyles--*/
+.footer_container{
+    display: flex;
+    background-color: #df4a4a;
+    }
+    
+    /*--about-page-footer-left-section-hoverst--*/
+    .left_footer{
+        width: 70%;
+        padding: 10px;
+    }
+    
+     /*--about-page-footer-right-section-hoverst--*/
+    .right_footer{
+    width: 30%;
+    padding: 10px;
+    }
+    
+    /*--about-page-footer-socialicons-section-hoverst--*/
+    .socials-icons{
+        display: flex;
+        align-items: center;
+    }
+
+    .right_footer, .socials-icons fa-brands li ,a {
+            color: #000;
+            margin: 5px;
+            font-size: 18px;
+    }
+
+    .right_footer, .socials-icons .fa-brands ,a{
+        text-decoration: none;
+    }
+
 
 /*-adding-mediaquries-smaller-600px--styles-home-page*/
 @media only screen and (min-width:600px){
@@ -140,10 +191,5 @@ left: 40%;
 
 }
 
-/*--about-page-main-section-hoverstyles--*
-#about{
-    height: 100vh;
-    width: 100%;
-    background-color: red;
-    position: relative;
-}
+
+
