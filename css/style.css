@@ -161,17 +161,17 @@ left: 40%;
     .socials-icons{
         display: flex;
         align-items: center;
+        
     }
 
-    .right_footer, .socials-icons fa-brands li ,a {
+    .right_footer, .socials-icons ,.fa-brands li ,a {
             color: #000;
             margin: 5px;
             font-size: 18px;
+            list-style-type: none;
     }
 
-    .right_footer, .socials-icons .fa-brands ,a{
-        text-decoration: none;
-    }
+    
 
 
 /*-adding-mediaquries-smaller-600px--styles-home-page*/
