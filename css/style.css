@@ -164,6 +164,7 @@ left: 40%;
         
     }
 
+    /*--about-page-footer-socialicons-fa-brands-section-hoverst--*/
     .right_footer, .socials-icons ,.fa-brands li ,a {
             color: #000;
             margin: 5px;
@@ -177,6 +178,7 @@ left: 40%;
 /*-adding-mediaquries-smaller-600px--styles-home-page*/
 @media only screen and (min-width:600px){
     .left-image{
+        display: none;
     }
 }
 
