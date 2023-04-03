@@ -182,7 +182,13 @@ left: 40%;
  
 
     
-
+   /*--contact-page--*/
+   form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translatey(50%);
+   }
 
 /*-adding-mediaquries-smaller-600px--styles-home-page*/
 @media only screen and (min-width:600px){
