@@ -145,26 +145,26 @@ left: 40%;
     background-color: #df4a4a;
     }
     
-    /*--about-page-footer-left-section-hoverst--*/
+    /*--about-page-footer-left-section---*/
     .left_footer{
         width: 70%;
         padding: 10px;
     }
     
-     /*--about-page-footer-right-section-hoverst--*/
+     /*--about-page-footer-right-section--*/
     .right_footer{
     width: 30%;
     padding: 10px;
     }
     
-    /*--about-page-footer-socialicons-section-hoverst--*/
+    /*--about-page-footer-socialicons-section--*/
     .socials-icons{
         display: flex;
         align-items: center;
         
     }
 
-    /*--about-page-footer-socialicons-fa-brands-section-hoverst--*/
+    /*--about-page-footer-socialicons-fa-brands-section---*/
     .right_footer, .socials-icons ,.fa-brands li ,a {
             color: #000;
             margin: 5px;
@@ -172,13 +172,22 @@ left: 40%;
             list-style-type: none;
     }
 
+      /*--resume-page--*/
+
+      /*--resume-page-main-img-*/
+    .intro{
+        margin-left: 20px;
+    }
+
+ 
+
     
 
 
 /*-adding-mediaquries-smaller-600px--styles-home-page*/
 @media only screen and (min-width:600px){
     .left-image{
-        display: none;
+        display:;
     }
 }
 
